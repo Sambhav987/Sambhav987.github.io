@@ -13,7 +13,7 @@ class Header extends HTMLElement {
     <nav class="inline-block" aria-label="Main">
        <ul class="flex items-center justify-end space-x-8 text-white font-semibold" role="menubar">
            <li role="menuitem">
-               <a href="/#" class="text-xl animate-left">Blog</a>
+               <a href="/tools.html" class="text-xl animate-left">Tools</a>
            </li>
            <li role="menuitem">
                <a href="/#" class="text-xl animate-left">Uses</a>
