@@ -1,0 +1,12 @@
+.projectcard {
+    border-radius: 51px;
+    background: #fcfcfc;
+    box-shadow:  5px 5px 15px #8f8f8f,
+             -5px -5px 15px #ffffff;
+}
+.projectcard:hover{
+    border-radius: 51px;
+    background: #fcfcfc;
+    box-shadow:  5px 5px 30px #8f8f8f,
+             -5px -5px 30px #ffffff;
+}
