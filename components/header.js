@@ -17,7 +17,7 @@ class Header extends HTMLElement {
                <a href="/tools.html" class="text-xl animate-left">Tools</a>
            </li>
            <li role="menuitem">
-               <a href="/#" class="text-xl animate-left">Uses</a>
+               <a href="/projects.html" class="text-xl animate-left">Projects</a>
            </li>
            <li class="sm:flex" role="menuitem">
                <a href="https://instagram.com/Sambhav9876" target="_blank" rel="noopener noreferrer" class="hover:text-green-400">
