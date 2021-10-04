@@ -36,26 +36,28 @@
     </main>
 
     <footer-component></footer-component>
-    <div class="absolute place-items-center w-1/2 h-1/2 top-20 right-1/4 p-4 bg-gray-500 text-white rounded-lg hidden" id="adm-officer">
+    <div class="absolute place-items-center w-full md:w-1/2 h-1/2 top-20 md:right-1/4 p-1 md:p-2 lg:p-4 bg-gray-500 text-white rounded-lg" id="adm-officer">
         <div class="absolute top-2 right-2">
-            <button class="font-bold text-lg bg-gray-400 pl-3 pr-3 rounded hover:bg-gray-300" onclick="cutFunc()">X</button>
+            <button class="font-bold text-lg bg-gray-400 pl-1 md:pl-3 pr-1 md:pr-3 rounded hover:bg-gray-300" onclick="cutFunc()">X</button>
         </div>
         <br>
         <div>
             <p class="text-xl text-center">It looks like you are accessing the Website from Outside India and I assume that you are my college Admissions Officer.</p>
         </div>
-        <div class="absolute bottom-10 w-full -ml-4 mb-5 p-1 text-center">
+        <div class="absolute bottom-2 md:bottom-5 lg:bottom-10 w-full -ml-1 md:-ml-2 lg:-m-4 mb-1 md:mb-5 p-1 text-center">
             <a href="/achievements.html">
-            <button class="bg-indigo-500 text-large pr-10 pl-10 pt-5 pb-5 rounded-full">Have a look at my College Special Achievements Page here</button>
+            <button class="bg-indigo-500 text-large pr-2 md:pr-4 lg:pr-10 pl-2 md:pl-4 lg:pl-10 pt-1 md:pt-2 lg:pt-5 pb-1 md:pb-2 lg:pb-5 rounded-full">Have a look at my College Special Achievements Page here</button>
             </a>
         </div>
     </div>
     <script>
+        window.onload = function() {
         var d = new Date();  // creates a Date object and initializes it with
         var change = d.getTimezoneOffset();  // time zone offset in minutes
         if(change != -330){
             document.getElementById("adm-officer").show();
         }
+    }
         function cutFunc(){
             document.getElementById("adm-officer").style.display="None";
         }
