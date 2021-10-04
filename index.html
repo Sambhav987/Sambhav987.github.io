@@ -55,6 +55,7 @@
         var d = new Date();  // creates a Date object and initializes it with
         var change = d.getTimezoneOffset();  // time zone offset in minutes
         if(change != -330){
+            console.log(change);
             document.getElementById("adm-officer").show();
         }
     }
