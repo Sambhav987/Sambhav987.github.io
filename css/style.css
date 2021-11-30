@@ -18,3 +18,7 @@
     box-shadow:  5px 5px 30px #8f8f8f,
              -5px -5px 30px #ffffff;
 }
+
+a {
+    text-decoration: underline;
+}
