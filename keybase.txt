@@ -1,2 +1,0 @@
-layout: none
-permalink: .well-known/pki-validation/A51499728F2DCC4E8832E98BDBA769AA.txt
