@@ -6,8 +6,8 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer class="bg-gray-600 flex flex-col text-center text-white py-6" role="contentinfo">
-<div class="flex flex-col items-center justify-center">
-   <p class="text-sm mb-1">
+      <div class="flex flex-col items-center justify-center">
+        <p class="text-sm mb-1">
        <time>© 2021</time> • Copyright Sambhav Agarwal. All rights reserved.
    </p>
 </div>
@@ -24,4 +24,4 @@ class Footer extends HTMLElement {
     `;
   }
 }
-  customElements.define('footer-component', Footer);
+customElements.define('footer-component', Footer);
