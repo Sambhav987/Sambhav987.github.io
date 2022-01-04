@@ -8,7 +8,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <header class="bg-gray-600 py-12 px-6" role="banner">
     <nav class="relative max-w-7xl mx-auto flex items-center justify-between" aria-label="Global">
-    <a href="/" class="text-white font-bold text-2xl hover:text-green-400 lg:text-3xl" title="Abc Def">
+    <a href="/" class="text-white font-bold text-2xl hover:text-green-400 lg:text-3xl" title="Sambhav Agarwal">
        Sambhav Agarwal.
     </a>
     <nav class="inline-block" aria-label="Main">
